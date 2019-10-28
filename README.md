@@ -4,11 +4,17 @@ Personal Rules for Little Snitch.
 
 [Download Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) then use one of the below links to automtically install one of the rules.
 
-Click on one of the following links:
+Copy one of the following URLs:
 
-1.  <a href="littlesnitch:subscribe-rules?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjkamenik%2Flittle-snitch-rules%2Fmaster%2Fexample.lsrules">Example Rules</a>
+1.  Example Rules: <https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/example.lsrules>
 
-## Installing manually
+Once the URL is copied then it can be imported into Little Snitch:
+1.  Open Little Snitch Rules preference pane
+2.  Click File -> New Rule Group Subscription
+3.  Paste the URL
+4.  Click Subscribe...
+
+## Getting URLs manually
 
 If you want to install the rules manually you will need to get the "raw" url of the file from github:
 1.  Open github
@@ -16,12 +22,6 @@ If you want to install the rules manually you will need to get the "raw" url of 
 3.  Click on the filename
 4.  Click "Raw" to get the raw view
     -   Usually "raw.githubusercontent.com/<user>/<repo>/<branch>/path/to/file"
-
-Once the URL is copied then it can be imported into Little Snitch:
-1.  Open Little Snitch Rules preference pane
-2.  Click File -> New Rule Group Subscription
-3.  Paste the URL
-4.  Click Subscribe...
 
 ## Understanding the Rule file structure
 
