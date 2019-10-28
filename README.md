@@ -6,7 +6,7 @@ Personal Rules for Little Snitch.
 
 Click on one of the following links:
 
-1.  [Example Rule](littlesnitch:subscribe-rules?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjkamenik%2Flittle-snitch-rules%2Fmaster%2Fexample.lsrules)
+1.  Example Rule: [littlesnitch:subscribe-rules?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjkamenik%2Flittle-snitch-rules%2Fmaster%2Fexample.lsrules](littlesnitch:subscribe-rules?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjkamenik%2Flittle-snitch-rules%2Fmaster%2Fexample.lsrules)
 
 ## Installing manually
 
