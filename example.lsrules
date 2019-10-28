@@ -1,0 +1,12 @@
+{
+  "description" : "Example ruleset",
+  "name" : "John's Examples",
+  "rules" : [
+    {
+      "notes": "Allow Example",
+      "action" : "allow",
+      "process" : "any",
+      "remote-domains" : ["example.com"]
+    }
+  ]
+}
