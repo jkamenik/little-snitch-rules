@@ -48,7 +48,18 @@ Rules have the following fields:
 -   notes   - Human discription of this specific rule
 -   process - "any" for any or the escaped path of the executable (i.e., "\/Applications\/Dropbox.app\/Contents\/MacOS\/Dropbox")
 
+Optional Fields (ommit for "any"):
+
+-   ports    - A port number (e.g. "53" for DNS, "22" for ssh, etc...)
+-   protocol - A protocol string:
+    -   "icmp"
+    -   "tcp"
+    -   "udp"
+    -   "irtp"
+    -   "ipv6-icmp"
+
 The following are exclusive rule types (you can only pick one in a rule):
+
 -   remote           - One of the following (generally best to not include rules of this type in a subscription.)
     -   any         - Allow Berkley
     -   bonjour     - Any bonjour network connection
