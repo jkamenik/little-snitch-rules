@@ -13,5 +13,10 @@
     "process": "any",
     "port": "53",
     "remote-addresses": "8.8.4.4, 8.8.8.8"
+  },{
+    "notes": "BackBlaze Backup service",
+    "action": "allow",
+    "process": "any",
+    "remote-domains": "backblaze.com"
   }]
 }
