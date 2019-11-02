@@ -1,4 +1,4 @@
-# little-snitch-rules
+# [little-snitch-rules](https://github.com/jkamenik/little-snitch-rules)
 
 Personal Rules for Little Snitch.
 
@@ -17,7 +17,7 @@ Once the URL is copied then it can be imported into Little Snitch:
 4.  Click "Subscribe..."
 5.  Enter your admin password is required
 6.  Adjust any settings
-    1.  Recommend Enabling "Disable new allow rules", and Update "Daily"
+    1.  Recommend Enabling "Disable new allow rules" (except for the Allow* rules), and Update "Daily"
 7.  Check "Active"
 8.  Click "Subscribe"
 
