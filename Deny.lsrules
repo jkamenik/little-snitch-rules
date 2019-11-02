@@ -1,0 +1,15 @@
+{
+  "description" : "Deny Rules https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/Deny.lsrules",
+  "name" : "John's Deny Rules",
+  "rules" : [{
+    "notes": "Comcast DNS",
+    "action": "allow",
+    "process": "any",
+    "remote-addresses": ["75.75.75.75"]
+  },{
+    "notes": "Google DNS",
+    "action": "allow",
+    "process": "any",
+    "remote-addresses": ["8.8.4.4","8.8.8.8"]
+  }]
+}
