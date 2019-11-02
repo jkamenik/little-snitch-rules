@@ -6,5 +6,10 @@
     "action": "deny",
     "process": "any",
     "remote-domains": "facebook.com"
+  },{
+    "notes": "Trackers",
+    "action": "deny",
+    "process": "any",
+    "remote-domains": "luckyorange.com, ptengine.com"
   }]
 }
