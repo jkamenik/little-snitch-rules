@@ -7,7 +7,6 @@
     "action" : "allow",
     "owner" : "me",
     "ports" : "443",
-    "priority" : "high",
     "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
     "protocol" : "tcp",
     "remote-domains" : ["1password.ca", "1password.com", "1password.eu", "1passwordusercontent.com", "agilebits.com"]
@@ -17,6 +16,28 @@
     "owner" : "me",
     "process" : "\/Applications\/1Password 7.app\/Contents\/XPCServices\/1Password Updater Service.xpc\/Contents\/Helpers\/1Password Updater.app\/Contents\/MacOS\/1Password Updater",
     "remote-domains" : ["agilebits.com"]
+  },
+
+  {
+    "notes": "Amazon Chime IPs",
+    "action" : "allow",
+    "owner" : "me",
+    "process" : "\/Applications\/Amazon Chime.app\/Contents\/MacOS\/Amazon Chime",
+    "remote-addresses" : "2001:558:feed::1"
+  },
+  {
+    "notes": "Amazon Chime Deny Tracking",
+    "action" : "deny",
+    "owner" : "me",
+    "process" : "\/Applications\/Amazon Chime.app\/Contents\/MacOS\/Amazon Chime",
+    "remote-hosts" : "mobileanalytics.us-east-1.amazonaws.com"
+  },
+  {
+    "notes": "Amazon Chime",
+    "action" : "allow",
+    "owner" : "me",
+    "process" : "\/Applications\/Amazon Chime.app\/Contents\/MacOS\/Amazon Chime",
+    "remote-domains" : ["chime.aws","s3.amazonaws.com","us-east-1.amazonaws.com"]
   },
 
   {
