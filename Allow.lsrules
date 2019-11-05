@@ -19,46 +19,46 @@
     "notes": "Apple (other)",
     "action": "allow",
     "process": "any",
-    "remote-domains": "icloud.com, mac.com"
+    "remote-domains": ["icloud.com", "mac.com"]
   },{
     "notes": "BackBlaze Backup service",
     "action": "allow",
     "process": "any",
-    "remote-domains": "backblaze.com"
+    "remote-domains": ["backblaze.com"]
   },{
     "notes": "Duo",
     "action": "allow",
     "process": "any",
-    "remote-domains": "duosecurity.com"
+    "remote-domains": ["duosecurity.com"]
   },{
     "notes": "Google",
     "action": "allow",
     "process": "any",
-    "remote-domains": "googleapis.com, google.com"
+    "remote-domains": ["googleapis.com", "google.com"]
   },{
     "notes": "Hockeyapp App Updater",
     "action": "allow",
     "process": "any",
-    "remote-domains": "hockeyapp.net"
+    "remote-domains": ["hockeyapp.net"]
   },{
     "notes": "Microsoft",
     "action": "allow",
     "process": "any",
-    "remote-domains": "office365.com"
+    "remote-domains": ["office365.com"]
   },{
     "notes": "Opaq",
     "action": "allow",
     "process": "any",
-    "remote-domains": "opaq.com, opaqnetworks.com, opaqnetworks.net, fourvdev.com"
+    "remote-domains": ["opaq.com", "opaqnetworks.com", "opaqnetworks.net", "fourvdev.com"]
   },{
     "notes": "Pwned Passwords",
     "action": "allow",
     "process": "any",
-    "remote-domains": "pwnedpasswords.com"
+    "remote-domains": ["pwnedpasswords.com"]
   },{
     "notes": "Weather",
     "action": "allow",
     "process": "any",
-    "remote-domains": "weather.com, wunderground.com"
+    "remote-domains": ["weather.com", "wunderground.com"]
   }]
 }
