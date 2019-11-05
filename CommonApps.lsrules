@@ -3,23 +3,20 @@
   "name" : "John's Common App Rules",
   "rules" : [
   {
+    "notes": "1Password",
     "action" : "allow",
     "owner" : "me",
     "ports" : "443",
     "priority" : "high",
     "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
     "protocol" : "tcp",
-    "remote-domains" : "1password.ca, 1password.com, 1password.eu, 1passwordusercontent.com, agilebits.com"
-  },
-
-  {
+    "remote-domains" : ["1password.ca", "1password.com", "1password.eu", "1passwordusercontent.com", "agilebits.com"]
+  },{
+    "notes": "1Password Updater",
     "action" : "allow",
     "owner" : "me",
-    "ports" : "443",
-    "priority" : "high",
-    "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
-    "protocol" : "tcp",
-    "remote-domains" : ["1password.com","agilebits.com"]
+    "process" : "\/Applications\/1Password 7.app\/Contents\/XPCServices\/1Password Updater Service.xpc\/Contents\/Helpers\/1Password Updater.app\/Contents\/MacOS\/1Password Updater",
+    "remote-domains" : ["agilebits.com"]
   },
 
   {
