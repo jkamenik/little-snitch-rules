@@ -17,6 +17,15 @@
       "priority": "high",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "remote-domains": ["aspnetcdn.com"]
+    },
+
+    {
+      "notes": "Atlassian",
+      "action": "allow",
+      "ports": "443",
+      "priority": "high",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["d3tdfngw25p96h.cloudfront.net","atl-paas.net","atlassian.net"]
     }
   ]
 }
