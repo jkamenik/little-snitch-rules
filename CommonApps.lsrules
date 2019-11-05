@@ -19,7 +19,7 @@
     "priority" : "high",
     "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
     "protocol" : "tcp",
-    "remote-domains" : "1password.com"
+    "remote-domains" : ["1password.com","agilebits.com"]
   },
 
   {
