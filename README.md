@@ -9,16 +9,19 @@ Copy one of the following URLs:
 1.  Example Rules: <https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/example.lsrules>
 2.  Global Allow Rules: <https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/Allow.lsrules>
 3.  Global Deny Rules: <https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/Deny.lsrules>
+4.  Common App Rules: <https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/CommonApps.lsrules>
+5.  Firefox Rules (default browser): <https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/Firefox.lsrules>
 
 Once the URL is copied then it can be imported into Little Snitch:
 1.  Open Little Snitch Rules preference pane
 2.  Click File -> New Rule Group Subscription
 3.  Paste the URL
 4.  Click "Subscribe..."
-5.  Enter your admin password is required
+5.  Enter your admin password if required
 6.  Adjust any settings
-    1.  Recommend Enabling "Disable new allow rules" (except for the Allow* rules), and Update "Daily"
-7.  Check "Active"
+    1.  Recommend Unchecking "Disable new allow rules" as most of the items above are "allow" rules.
+    2.  Recommend setting updates to "Daily"
+    3.  Recommend checking "Active"
 8.  Click "Subscribe"
 
 ## Getting URLs manually
@@ -67,17 +70,9 @@ The following are exclusive rule types (you can only pick one in a rule):
     -   dns-servers - Any DNS-like connection (tcp/upd port 54)
     -   local-net   - Any local network connection
     -   multicast   - Any multicast connection
--   remote-addresses - comma separated list of IPs
-    -   "1.1.1.1, 2.2.2.2"
--   remote-hosts     - A comma separated list of FQDNs.
-    -   "www.example.com, mail.example.com"
--   remote-domains   - A comma separated list of domains.  Note: this rule applies to any subdomain as well (i.e., **.example.com)
-    -   "yahoo.com, apple.com"
-
-The following are keys that generally shouldn't be included:
-
-## Generating a valid link
-
-To get URL to automatically open in little snitch, prefix it with `x-littlesnitch:subscribe-rules?url=`, and be sure to [URL encode](https://www.urlencoder.org/) the URL.
-
-Example: `littlesnitch:subscribe-rules?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjkamenik%2Flittle-snitch-rules%2Fmaster%2Fexample.lsrules`
+-   remote-addresses - A JSON array of IPs
+    -   `["1.1.1.1", "2.2.2.2"]`
+-   remote-hosts     - A JSON array of FQDNs.
+    -   `["www.example.com", "mail.example.com"]`
+-   remote-domains   - A JSON array of domains.  Note: this rule applies to any subdomain as well (i.e., **.example.com)
+    -   `["yahoo.com", "apple.com"]`
