@@ -4,14 +4,22 @@
   "rules" : [
   {
     "action" : "allow",
-    "creationDate" : 1572914821.8825421,
-    "modificationDate" : 1572914835.610173,
     "owner" : "me",
     "ports" : "443",
     "priority" : "high",
     "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
     "protocol" : "tcp",
     "remote-domains" : "1password.ca, 1password.com, 1password.eu, 1passwordusercontent.com, agilebits.com"
+  },
+
+  {
+    "action" : "allow",
+    "owner" : "me",
+    "ports" : "443",
+    "priority" : "high",
+    "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
+    "protocol" : "tcp",
+    "remote-domains" : "1password.com"
   },
 
   {
