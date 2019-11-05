@@ -5,11 +5,11 @@
     "notes": "Facebook",
     "action": "deny",
     "process": "any",
-    "remote-domains": "facebook.com, facebook.net"
+    "remote-domains": ["facebook.com", "facebook.net"]
   },{
     "notes": "Trackers",
     "action": "deny",
     "process": "any",
-    "remote-domains": "luckyorange.com, ptengine.com"
+    "remote-domains": ["luckyorange.com", "ptengine.com"]
   }]
 }
