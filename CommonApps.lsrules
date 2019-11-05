@@ -8,7 +8,14 @@
     "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
     "protocol" : "tcp",
     "remote-domains": "1password.ca, 1password.com, 1password.eu, 1passwordusercontent.com, agilebits.com"
-  },{
+  },
 
+  {
+    "notes": "Little Snitch Downloader",
+    "action": "allow",
+    "ports" : "443",
+    "process" : "\/Library\/Little Snitch\/Little Snitch Daemon.bundle\/Contents\/XPCServices\/Little Snitch URL Downloader.xpc\/Contents\/MacOS\/Little Snitch URL Downloader",
+    "protocol" : "tcp",
+    "remote-domains" : "githubusercontent.com"
   }]
 }
