@@ -16,6 +16,22 @@
   },
 
   {
+    "notes": "HTTP Lookup Tools",
+    "action": "allow",
+    "ports": "80",
+    "priority": "high",
+    "remote-domains": ["ifconfig.co"]
+  },
+  {
+    "notes": "HTTPS Lookup Tools",
+    "action": "allow",
+    "ports": "443",
+    "priority": "high",
+    "remote-domains": ["ifconfig.co"]
+  },
+
+
+  {
     "notes": "Apple (other)",
     "action": "allow",
     "process": "any",
