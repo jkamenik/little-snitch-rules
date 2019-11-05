@@ -16,7 +16,7 @@
       "ports": "80",
       "priority": "high",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["firefox.com"]
+      "remote-domains": ["amazontrust.com","digicert.com","firefox.com"]
     },
     {
       "notes": "3. CDNs",
