@@ -11,7 +11,15 @@
       "remote-domains": ["digicert.com","duckduckgo.com","firefox.com","mozilla.com","mozilla.net","mozilla.org","mozillazine.org","sectigo.com","whois.net"]
     },
     {
-      "notes": "2. CDNs",
+      "notes": "2. HTTP Defaults",
+      "action": "allow",
+      "ports": "80",
+      "priority": "high",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["firefox.com"]
+    },
+    {
+      "notes": "3. CDNs",
       "action": "allow",
       "ports": "443",
       "priority": "high",
