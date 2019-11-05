@@ -5,7 +5,7 @@
     "notes": "Facebook",
     "action": "deny",
     "process": "any",
-    "remote-domains": "facebook.com"
+    "remote-domains": "facebook.com, facebook.net"
   },{
     "notes": "Trackers",
     "action": "deny",
