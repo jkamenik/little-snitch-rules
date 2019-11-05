@@ -4,6 +4,7 @@
   "rules" : [{
     "notes": "1Password",
     "action": "allow",
+    "owner" : "me",
     "ports" : "443",
     "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
     "protocol" : "tcp",
