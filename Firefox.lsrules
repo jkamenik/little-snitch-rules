@@ -1,0 +1,22 @@
+{
+  "description" : "John's Firefox Rules. Since browsers represent the greatest user of the web these are rules specific to a 'default' browser, which happens to be firefox.  https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/Firefox.lsrules",
+  "name" : "John's Firefox Rules",
+  "rules" : [
+    {
+      "notes": "1. Defaults",
+      "action": "allow",
+      "ports": "443",
+      "priority": "high",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["digicert.com","duckduckgo.com","firefox.com","mozilla.com","mozilla.net","mozilla.org","mozillazine.org","sectigo.com","whois.net"]
+    },
+    {
+      "notes": "2. CDNs",
+      "action": "allow",
+      "ports": "443",
+      "priority": "high",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["aspnetcdn.com"]
+    }
+  ]
+}
