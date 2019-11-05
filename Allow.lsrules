@@ -2,11 +2,6 @@
   "description" : "John's Global Allow Rules. https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/Allow.lsrules",
   "name" : "John's Global Allow Rules",
   "rules" : [{
-    "notes": "Apple IPs",
-    "action": "allow",
-    "process": "any",
-    "remote-addresses": "17.248.143.90"
-  },{
     "notes": "Comcast DNS",
     "action": "allow",
     "process": "any",
@@ -21,11 +16,6 @@
   },
 
   {
-    "notes": "1Password",
-    "action": "allow",
-    "process": "any",
-    "remote-domains": "1password.ca, 1password.com, 1password.eu, 1passwordusercontent.com, agilebits.com"
-  },{
     "notes": "Apple (other)",
     "action": "allow",
     "process": "any",
