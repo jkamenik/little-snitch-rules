@@ -12,7 +12,7 @@
     "process": "any",
     "remote-domains": ["luckyorange.com", "ptengine.com"]
   },{
-    "notes": "Useless Crash and Metrics reporting"
+    "notes": "Useless Crash and Metrics reporting",
     "action": "deny",
     "process": "any",
     "remote-domains": ["sentry.io"]
