@@ -65,7 +65,7 @@
     "notes": "Microsoft",
     "action": "allow",
     "process": "any",
-    "remote-domains": ["office365.com"]
+    "remote-domains": ["office365.com","outlook.com"]
   },{
     "notes": "Opaq",
     "action": "allow",
