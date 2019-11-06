@@ -36,7 +36,15 @@
       "action": "allow",
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["d3tdfngw25p96h.cloudfront.net","atl-paas.net","atlassian.net"]
+      "remote-domains": ["atl-paas.net","atlassian.com","atlassian.net","bitbucket.org","bytebucket.org"]
+    },
+
+    {
+      "notes": "Docker",
+      "action": "allow",
+      "ports": "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["docker.com"]
     },
 
     {
@@ -45,6 +53,14 @@
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "remote-domains": ["quay.io"]
+    },
+
+    {
+      "notes": "Wordpress",
+      "action": "allow",
+      "ports": "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["gravatar.com","wp.com"]
     }
   ]
 }
