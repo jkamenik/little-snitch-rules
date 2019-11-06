@@ -21,14 +21,14 @@
       "action": "allow",
       "ports": "80",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["amazontrust.com","digicert.com","firefox.com","pki.goog"]
+      "remote-domains": ["amazontrust.com","digicert.com","firefox.com","pki.goog","sectigo.com"]
     },
     {
       "notes": "3. CDNs",
       "action": "allow",
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["aspnetcdn.com","cloudfront.net","gstatic.com","s3.amazonaws.com"]
+      "remote-domains": ["aspnetcdn.com","cloudfront.net","gstatic.com","polyfill.io","s3.amazonaws.com"]
     },
 
     {
@@ -69,6 +69,14 @@
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "remote-domains": ["gravatar.com","wp.com"]
+    },
+
+    {
+      "notes": "Zendesk",
+      "action": "allow",
+      "ports": "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["zendesk.com"]
     }
   ]
 }
