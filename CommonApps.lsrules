@@ -19,6 +19,15 @@
   },
 
   {
+    "notes": "Alfred",
+    "action" : "allow",
+    "owner" : "me",
+    "ports" : "443",
+    "process" : "\/Applications\/Alfred 4.app\/Contents\/MacOS\/Alfred",
+    "protocol" : "tcp",
+    "remote-domains" : "alfredapp.com"
+  },
+  {
     "notes": "Amazon Chime IPs",
     "action" : "allow",
     "owner" : "me",
