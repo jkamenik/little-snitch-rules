@@ -14,7 +14,7 @@
       "action": "allow",
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["comodoca.com","digicert.com","duckduckgo.com","firefox.com","mozilla.com","mozilla.net","mozilla.org","mozillazine.org","pki.goog","sectigo.com","whois.net"]
+      "remote-domains": ["comodoca.com","digicert.com","duckduckgo.com","firefox.com","mozilla.com","mozilla.net","mozilla.org","mozillazine.org","pki.goog","sectigo.com","trustarc.com","truste.com","whois.net"]
     },
     {
       "notes": "2. HTTP Defaults",
@@ -28,7 +28,7 @@
       "action": "allow",
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["aspnetcdn.com"]
+      "remote-domains": ["aspnetcdn.com","cloudfront.net","gstatic.com"]
     },
 
     {
