@@ -3,18 +3,23 @@
   "name" : "John's Firefox Rules",
   "rules" : [
     {
+      "notes": "0. Default Deny",
+      "action": "deny",
+      "priority": "high",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["getpocket.com"]
+    },
+    {
       "notes": "1. Defaults",
       "action": "allow",
       "ports": "443",
-      "priority": "high",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["digicert.com","duckduckgo.com","firefox.com","mozilla.com","mozilla.net","mozilla.org","mozillazine.org","sectigo.com","whois.net"]
+      "remote-domains": ["comodoca.com","digicert.com","duckduckgo.com","firefox.com","mozilla.com","mozilla.net","mozilla.org","mozillazine.org","pki.goog","sectigo.com","whois.net"]
     },
     {
       "notes": "2. HTTP Defaults",
       "action": "allow",
       "ports": "80",
-      "priority": "high",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "remote-domains": ["amazontrust.com","digicert.com","firefox.com"]
     },
@@ -22,7 +27,6 @@
       "notes": "3. CDNs",
       "action": "allow",
       "ports": "443",
-      "priority": "high",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "remote-domains": ["aspnetcdn.com"]
     },
@@ -31,9 +35,16 @@
       "notes": "Atlassian",
       "action": "allow",
       "ports": "443",
-      "priority": "high",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "remote-domains": ["d3tdfngw25p96h.cloudfront.net","atl-paas.net","atlassian.net"]
+    },
+
+    {
+      "notes": "Redhat / Quay",
+      "action": "allow",
+      "ports": "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["quay.io"]
     }
   ]
 }
