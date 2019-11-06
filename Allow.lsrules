@@ -42,6 +42,11 @@
     "process": "any",
     "remote-domains": ["backblaze.com"]
   },{
+    "notes": "Duckduckgo",
+    "action": "allow",
+    "process": "any",
+    "remote-domains": ["duckduckgo.com"]
+  },{
     "notes": "Duo",
     "action": "allow",
     "process": "any",
