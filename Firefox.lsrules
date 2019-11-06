@@ -14,21 +14,21 @@
       "action": "allow",
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["comodoca.com","digicert.com","duckduckgo.com","firefox.com","mozilla.com","mozilla.net","mozilla.org","mozillazine.org","pki.goog","sectigo.com","trustarc.com","truste.com","whois.net"]
+      "remote-domains": ["comodoca.com","digicert.com","duckduckgo.com","firefox.com","mozilla.com","mozilla.net","mozilla.org","mozillazine.org","pki.goog","sectigo.com","thawte.com","trustarc.com","truste.com","whois.net"]
     },
     {
       "notes": "2. HTTP Defaults",
       "action": "allow",
       "ports": "80",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["amazontrust.com","digicert.com","firefox.com"]
+      "remote-domains": ["amazontrust.com","digicert.com","firefox.com","pki.goog"]
     },
     {
       "notes": "3. CDNs",
       "action": "allow",
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["aspnetcdn.com","cloudfront.net","gstatic.com"]
+      "remote-domains": ["aspnetcdn.com","cloudfront.net","gstatic.com","s3.amazonaws.com"]
     },
 
     {
@@ -36,7 +36,7 @@
       "action": "allow",
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["atl-paas.net","atlassian.com","atlassian.net","bitbucket.org","bytebucket.org"]
+      "remote-domains": ["atl-paas.net","atlassian.com","atlassian.net","atlassian.io","bitbucket.org","bytebucket.org","valiantys.com"]
     },
 
     {
@@ -53,6 +53,14 @@
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "remote-domains": ["quay.io"]
+    },
+
+    {
+      "notes": "Status Page",
+      "action": "allow",
+      "ports": "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["statuspage.io"]
     },
 
     {
