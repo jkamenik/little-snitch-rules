@@ -30,8 +30,13 @@
     "remote-domains": ["ifconfig.co"]
   },
 
-
   {
+    "notes": "1Password",
+    "action" : "allow",
+    "ports" : "443",
+    "protocol" : "tcp",
+    "remote-domains" : ["1password.ca", "1password.com", "1password.eu", "1passwordusercontent.com", "agilebits.com"]
+  },{
     "notes": "Apple (other)",
     "action": "allow",
     "process": "any",
