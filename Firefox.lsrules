@@ -14,7 +14,7 @@
       "action": "allow",
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["comodoca.com","digicert.com","duckduckgo.com","firefox.com","mozilla.com","mozilla.net","mozilla.org","mozillazine.org","pki.goog","sectigo.com","thawte.com","trustarc.com","truste.com","whois.net"]
+      "remote-domains": ["comodoca.com","digicert.com","duckduckgo.com","entrust.net","firefox.com","firefoxusercontent.com","fontawesome.com","fonts.net","geotrust.com","mozilla.com","mozilla.net","mozilla.org","mozillazine.org","pki.goog","sectigo.com","thawte.com","trustarc.com","truste.com","whois.net"]
     },
     {
       "notes": "2. HTTP Defaults",
@@ -28,7 +28,7 @@
       "action": "allow",
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["aspnetcdn.com","bootstrapcdn.com","cloudflare.com","cloudfront.net","gstatic.com","jquery.com","polyfill.io","s3.amazonaws.com","sstatic.net","swiftypecdn.com","typekit.net"]
+      "remote-domains": ["akamaized.net","aspnetcdn.com","bootstrapcdn.com","cloudflare.com","cloudfront.net","ehowcdn.com","gstatic.com","jquery.com","polyfill.io","s3.amazonaws.com","sstatic.net","swiftypecdn.com","typekit.net"]
     },
 
     {
@@ -37,6 +37,14 @@
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "remote-domains": ["atl-paas.net","atlassian.com","atlassian.net","atlassian.io","bitbucket.org","bytebucket.org","valiantys.com"]
+    },
+
+    {
+      "notes": "Codacy",
+      "action": "allow",
+      "ports": "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["codacy.com"]
     },
 
     {
