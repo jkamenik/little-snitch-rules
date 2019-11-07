@@ -47,6 +47,11 @@
     "process": "any",
     "remote-domains": ["backblaze.com"]
   },{
+    "notes": "Bitbucket",
+    "action": "allow",
+    "process": "any",
+    "remote-domains": ["bitbucket.org"]
+  },{
     "notes": "Duckduckgo",
     "action": "allow",
     "process": "any",
@@ -55,7 +60,12 @@
     "notes": "Duo",
     "action": "allow",
     "process": "any",
-    "remote-domains": ["duosecurity.com"]
+    "remote-domains": ["duo.com","duosecurity.com"]
+  },{
+    "notes": "Github",
+    "action": "allow",
+    "process": "any",
+    "remote-domains": ["github.com","githubusercontent.com"]
   },{
     "notes": "Google",
     "action": "allow",
