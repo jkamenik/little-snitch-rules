@@ -71,5 +71,14 @@
     "process" : "\/Library\/Little Snitch\/Little Snitch Daemon.bundle\/Contents\/XPCServices\/Little Snitch URL Downloader.xpc\/Contents\/MacOS\/Little Snitch URL Downloader",
     "protocol" : "tcp",
     "remote-domains" : "githubusercontent.com"
-  }]
+  },
+  {
+    "notes": "Little Snitch Helper",
+    "action" : "allow",
+    "owner" : "me",
+    "ports": "443",
+    "process" : "\/Library\/Little Snitch\/Little Snitch Helper.app\/Contents\/MacOS\/Little Snitch Helper",
+    "remote-domains" : ["obdev.at"]
+  }
+  ]
 }
