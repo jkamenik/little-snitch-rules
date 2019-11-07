@@ -63,6 +63,21 @@
     "ports": "443",
     "process" : "\/Library\/Little Snitch\/Little Snitch Helper.app\/Contents\/MacOS\/Little Snitch Helper",
     "remote-domains" : ["obdev.at"]
+  },
+
+  {
+    "notes": "Zoom",
+    "action" : "allow",
+    "owner" : "me",
+    "process" : "\/Applications\/zoom.us.app\/Contents\/MacOS\/zoom.us",
+    "remote-domains" : ["cloudfront.net","zoom.com","zoom.us"]
+  },
+  {
+    "notes": "Zoom IPs",
+    "action" : "allow",
+    "owner" : "me",
+    "process" : "\/Applications\/zoom.us.app\/Contents\/MacOS\/zoom.us",
+    "remote-addresses" : ["162.255.37.124","162.255.38.124"]
   }
   ]
 }
