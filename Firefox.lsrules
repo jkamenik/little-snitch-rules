@@ -7,7 +7,7 @@
       "action": "deny",
       "priority": "high",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["getpocket.com"]
+      "remote-domains": ["getpocket.com","hubspot.com","hubspot.net","wistia.com"]
     },
     {
       "notes": "1. Defaults",
@@ -28,7 +28,7 @@
       "action": "allow",
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["aspnetcdn.com","cloudflare.com","cloudfront.net","gstatic.com","polyfill.io","s3.amazonaws.com","sstatic.net"]
+      "remote-domains": ["aspnetcdn.com","bootstrapcdn.com","cloudflare.com","cloudfront.net","gstatic.com","jquery.com","polyfill.io","s3.amazonaws.com","sstatic.net","swiftypecdn.com","typekit.net"]
     },
 
     {
@@ -48,11 +48,19 @@
     },
 
     {
+      "notes": "Hashicorp",
+      "action": "allow",
+      "ports": "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["terraform.io"]
+    },
+
+    {
       "notes": "Redhat / Quay",
       "action": "allow",
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["quay.io"]
+      "remote-domains": ["ansible.com","quay.io","redhat.com"]
     },
 
     {
