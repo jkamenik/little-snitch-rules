@@ -58,6 +58,21 @@
   },
 
   {
+    "notes": "GoToMeeting IPs",
+    "action" : "allow",
+    "owner" : "me",
+    "process" : "\/Applications\/GoToMeeting.app\/Contents\/MacOS\/GoToMeeting",
+    "remote-addresses" : ["13.237.209.96", "13.251.227.8", "173.199.0.254", "173.199.11.254", "173.199.14.254", "173.199.15.254", "18.196.38.44", "202.173.28.250", "54.208.199.64", "67.217.69.254", "67.217.86.10", "67.217.86.93", "68.64.18.103", "68.64.18.104", "68.64.23.244", "68.64.26.254", "78.108.118.250"]
+  },
+  {
+    "notes": "GotoMeeting Domains",
+    "action" : "allow",
+    "owner" : "me",
+    "process" : "\/Applications\/GoToMeeting.app\/Contents\/MacOS\/GoToMeeting",
+    "remote-domains" : ["expertcity.com","getgo.com","gotomeeting.com","launchdarkly.com"]
+  },
+
+  {
     "notes": "Little Snitch Downloader",
     "action": "allow",
     "ports" : "443",
