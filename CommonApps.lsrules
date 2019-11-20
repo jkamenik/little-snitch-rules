@@ -75,6 +75,15 @@
   },
 
   {
+    "notes": "Things",
+    "action" : "allow",
+    "owner" : "me",
+    "ports": "443",
+    "process" : "\/Applications\/Things3.app\/Contents\/MacOS\/Things3",
+    "remote-domains" : ["appcenter.ms"]
+  },
+
+  {
     "notes": "Zoom",
     "action" : "allow",
     "owner" : "me",
