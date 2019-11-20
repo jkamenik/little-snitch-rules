@@ -80,7 +80,7 @@
     "notes": "Microsoft",
     "action": "allow",
     "process": "any",
-    "remote-domains": ["office365.com","outlook.com"]
+    "remote-domains": ["msftauth.net","msftauthimages.net","office365.com","outlook.com","sharepoint.com"]
   },{
     "notes": "Opaq",
     "action": "allow",
