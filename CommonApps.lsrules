@@ -43,6 +43,14 @@
   },
 
   {
+    "notes": "Atom (editor)",
+    "action" : "allow",
+    "owner" : "me",
+    "process" : "\/Applications\/Atom.app\/Contents\/MacOS\/Atom",
+    "remote-domains" : ["s3.amazonaws.com","appveyor.com","atom.io","bithound.io","circleci.com","david-dm.org","opencollective.com","shields.io","travis-ci.org"]
+  },
+
+  {
     "notes": "Dropbox IPs",
     "action" : "allow",
     "owner" : "me",
