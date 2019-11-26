@@ -47,7 +47,7 @@
     "action" : "allow",
     "owner" : "me",
     "process" : "\/Applications\/Atom.app\/Contents\/MacOS\/Atom",
-    "remote-domains" : ["s3.amazonaws.com","appveyor.com","atom.io","bithound.io","circleci.com","david-dm.org","opencollective.com","shields.io","travis-ci.org"]
+    "remote-domains" : ["s3.amazonaws.com","appveyor.com","atom.io","bithound.io","bugsnag.com","circleci.com","codacy.com","david-dm.org","npmjs.org","opencollective.com","shields.io","travis-ci.org","quay.io"]
   },
 
   {
