@@ -14,7 +14,7 @@
       "action": "allow",
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["comodoca.com","digicert.com","duckduckgo.com","entrust.net","easylist.to","firefox.com","firefoxusercontent.com","fontawesome.com","fonts.net","geotrust.com","https-rulesets.org","mozilla.com","mozilla.net","mozilla.org","mozillazine.org","pki.goog","sectigo.com","thawte.com","trustarc.com","truste.com","whois.net"]
+      "remote-domains": ["atom.io","comodoca.com","digicert.com","duckduckgo.com","entrust.net","easylist.to","firefox.com","firefoxusercontent.com","fontawesome.com","fonts.net","geotrust.com","https-rulesets.org","mozilla.com","mozilla.net","mozilla.org","mozillazine.org","pki.goog","sectigo.com","thawte.com","trustarc.com","truste.com","whois.net"]
     },
     {
       "notes": "2. HTTP Defaults",
@@ -36,7 +36,14 @@
       "action": "allow",
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["atl-paas.net","atlassian.com","atlassian.net","atlassian.io","bitbucket.org","bytebucket.org","valiantys.com"]
+      "remote-domains": ["atl-paas.net","atlassian.com","atlassian.net","atlassian.io","bitbucket.org","bytebucket.org","jira.com","valiantys.com"]
+    },
+    {
+      "notes": "Atlassian Plugins",
+      "action": "allow",
+      "ports": "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["zephyr4jiracloud.com"]
     },
 
     {
