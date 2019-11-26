@@ -80,7 +80,7 @@
     "notes": "Microsoft",
     "action": "allow",
     "process": "any",
-    "remote-domains": ["azurewebsites.net","live.com","microsoft.com","microsoftonline.com","msftauth.net","msftauthimages.net","msn.com","office.com","office.net","office365.com","outlook.com","sharepoint.com","skype.com","windows.net"]
+    "remote-domains": ["azurewebsites.net","live.com","lync.com","microsoft.com","microsoftonline.com","msftauth.net","msftauthimages.net","msn.com","oaspapps.com","office.com","office.net","office365.com","outlook.com","sharepoint.com","skype.com","windows.net"]
   },{
     "notes": "Opaq",
     "action": "allow",
