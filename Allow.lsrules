@@ -40,7 +40,7 @@
     "notes": "Apple (other)",
     "action": "allow",
     "process": "any",
-    "remote-domains": ["edgesuite.net","icloud.com", "mac.com"]
+    "remote-domains": ["edgesuite.net","fleetsmith.com","icloud.com", "mac.com"]
   },{
     "notes": "BackBlaze Backup service",
     "action": "allow",
