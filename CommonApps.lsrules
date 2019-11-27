@@ -51,6 +51,14 @@
   },
 
   {
+    "notes": "Backblaze",
+    "action" : "allow",
+    "owner" : "me",
+    "process" : "\/Library\/Backblaze.bzpkg\/bztransmit",
+    "remote-domains" : ["backblazeb2.com"]
+  },
+
+  {
     "notes": "Dropbox IPs",
     "action" : "allow",
     "owner" : "me",
