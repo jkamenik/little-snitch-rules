@@ -123,6 +123,16 @@
   },
 
   {
+    "notes": "Monosnap",
+    "action" : "allow",
+    "owner" : "me",
+    "ports" : "443",
+    "process" : "\/Applications\/Monosnap.app\/Contents\/MacOS\/Monosnap",
+    "protocol" : "tcp",
+    "remote-domains" : ["monosnap.com"]
+  },
+
+  {
     "notes": "Slack",
     "action" : "allow",
     "owner" : "me",
