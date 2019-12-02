@@ -15,6 +15,6 @@
     "notes": "Useless Crash and Metrics reporting",
     "action": "deny",
     "process": "any",
-    "remote-domains": ["sentry.io"]
+    "remote-domains": ["crashlytics.com","sentry.io"]
   }]
 }
