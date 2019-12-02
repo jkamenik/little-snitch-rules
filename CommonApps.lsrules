@@ -84,7 +84,7 @@
   },
 
   {
-    "notes": "Fleetsmith",
+    "notes": "Fleetsmith Helper",
     "action" : "allow",
     "owner" : "system",
     "ports" : "443",
