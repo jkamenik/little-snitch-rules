@@ -161,6 +161,16 @@
   },
 
   {
+    "notes": "Traps",
+    "action" : "allow",
+    "owner" : "system",
+    "ports" : "443",
+    "process" : "\/Library\/Application Support\/PaloAltoNetworks\/Traps\/bin\/trapsd",
+    "protocol" : "tcp",
+    "remote-domains" : ["paloaltonetworks.com"]
+  },
+
+  {
     "notes": "Zoom",
     "action" : "allow",
     "owner" : "me",
