@@ -84,6 +84,16 @@
   },
 
   {
+    "notes": "Fleetsmith",
+    "action" : "allow",
+    "owner" : "system",
+    "ports" : "443",
+    "process" : "\/opt\/fleetsmith\/bin\/fsagent",
+    "protocol" : "tcp",
+    "remote-domains" : ["fleetsmith.cloud"]
+  },
+
+  {
     "notes": "GoToMeeting IPs",
     "action" : "allow",
     "owner" : "me",
