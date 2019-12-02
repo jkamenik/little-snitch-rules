@@ -59,6 +59,16 @@
   },
 
   {
+    "notes": "Docker",
+    "action" : "allow",
+    "owner" : "me",
+    "ports" : "443",
+    "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
+    "protocol" : "tcp",
+    "remote-domains" : ["docker.com"]
+  },
+
+  {
     "notes": "Dropbox IPs",
     "action" : "allow",
     "owner" : "me",
