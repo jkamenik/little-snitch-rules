@@ -171,6 +171,25 @@
   },
 
   {
+    "notes": "VBoxHeadless HTTP",
+    "action" : "allow",
+    "owner" : "me",
+    "ports" : "80",
+    "process" : "\/Applications\/VirtualBox.app\/Contents\/MacOS\/VBoxHeadless",
+    "protocol" : "tcp",
+    "remote-domains" : ["ubuntu.com"]
+  },
+  {
+    "notes": "VBoxHeadless HTTPS",
+    "action" : "allow",
+    "owner" : "me",
+    "ports" : "443",
+    "process" : "\/Applications\/VirtualBox.app\/Contents\/MacOS\/VBoxHeadless",
+    "protocol" : "tcp",
+    "remote-domains" : ["ubuntu.com"]
+  },
+
+  {
     "notes": "Zoom",
     "action" : "allow",
     "owner" : "me",
