@@ -84,11 +84,29 @@
   },
 
   {
-    "notes": "Fleetsmith Helper",
+    "notes": "Fleetsmith Agent",
     "action" : "allow",
     "owner" : "system",
     "ports" : "443",
     "process" : "\/opt\/fleetsmith\/bin\/fsagent",
+    "protocol" : "tcp",
+    "remote-domains" : ["fleetsmith.cloud"]
+  },
+  {
+    "notes": "Fleetsmith Client",
+    "action" : "allow",
+    "owner" : "system",
+    "ports" : "443",
+    "process" : "\/usr\/libexec\/mdmclient",
+    "protocol" : "tcp",
+    "remote-domains" : ["fleetsmith.cloud"]
+  },
+  {
+    "notes": "Fleetsmith Updater",
+    "action" : "allow",
+    "owner" : "system",
+    "ports" : "443",
+    "process" : "\/opt\/fleetsmith\/bin\/fsupdater",
     "protocol" : "tcp",
     "remote-domains" : ["fleetsmith.cloud"]
   },
