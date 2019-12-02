@@ -10,7 +10,7 @@
     "notes": "Trackers",
     "action": "deny",
     "process": "any",
-    "remote-domains": ["luckyorange.com", "ptengine.com"]
+    "remote-domains": ["luckyorange.com", "ptengine.com","yoyo.org"]
   },{
     "notes": "Useless Crash and Metrics reporting",
     "action": "deny",
