@@ -128,7 +128,7 @@
     "owner" : "me",
     "ports": "443",
     "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
-    "remote-domains" : ["atl-paas.net","atlassian.net","gravatar.com","slack-core.com","slack-edge.com","slack-imgs.com","slack.com","slackb.com"]
+    "remote-domains" : ["atl-paas.net","atlassian.net","gravatar.com","slack-core.com","slack-edge.com","slack-imgs.com","slack.com","slackb.com","twimg.com"]
   },
 
   {
