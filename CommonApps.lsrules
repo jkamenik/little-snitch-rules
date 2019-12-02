@@ -96,6 +96,16 @@
   },
 
   {
+    "notes": "iStat Menu",
+    "action" : "allow",
+    "owner" : "me",
+    "ports" : "443",
+    "process" : "\/Library\/Application Support\/iStat Menus 6\/iStat Menus Status.app\/Contents\/MacOS\/iStat Menus Status",
+    "protocol" : "tcp",
+    "remote-domains" : ["istatmenus.app"]
+  },
+
+  {
     "notes": "Little Snitch Downloader",
     "action": "allow",
     "ports" : "443",
