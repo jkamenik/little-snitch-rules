@@ -103,6 +103,14 @@
     },
 
     {
+      "notes": "Webex",
+      "action": "allow",
+      "ports": "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["webex.com"]
+    },
+
+    {
       "notes": "Wordpress",
       "action": "allow",
       "ports": "443",
