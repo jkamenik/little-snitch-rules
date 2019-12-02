@@ -143,6 +143,16 @@
   },
 
   {
+    "notes": "Micro Snitch",
+    "action" : "allow",
+    "owner" : "me",
+    "ports": "443",
+    "process" : "\/Applications\/Micro Snitch.app\/Contents\/MacOS\/Micro Snitch",
+    "protocol": "tcp",
+    "remote-domains" : ["obdev.at"]
+  },
+
+  {
     "notes": "Slack",
     "action" : "allow",
     "owner" : "me",
