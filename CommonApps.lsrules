@@ -149,7 +149,7 @@
     "ports" : "443",
     "process" : "\/Library\/Little Snitch\/Little Snitch Daemon.bundle\/Contents\/XPCServices\/Little Snitch URL Downloader.xpc\/Contents\/MacOS\/Little Snitch URL Downloader",
     "protocol" : "tcp",
-    "remote-domains" : "githubusercontent.com"
+    "remote-domains" : ["githubusercontent.com","yoyo.org"]
   },
   {
     "notes": "Little Snitch Helper",
