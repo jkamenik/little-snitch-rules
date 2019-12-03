@@ -190,6 +190,15 @@
   },
 
   {
+    "notes": "Spotlight",
+    "action" : "allow",
+    "owner" : "me",
+    "ports": "443",
+    "process" : "\/System\/Library\/CoreServices\/Spotlight.app\/Contents\/MacOS\/Spotlight",
+    "remote-domains" : ["yahoo.com"]
+  },
+
+  {
     "notes": "Things",
     "action" : "allow",
     "owner" : "me",
