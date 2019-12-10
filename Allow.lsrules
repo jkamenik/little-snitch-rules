@@ -5,7 +5,7 @@
     "notes": "Comcast DNS",
     "action": "allow",
     "ports": "53",
-    "remote-addresses": "75.75.75.75-75.75.76.76"#, "2001:558:feed::2"
+    "remote-addresses": "75.75.75.75-75.75.76.76"
   },
   {
     "notes": "Comcast DNS",
