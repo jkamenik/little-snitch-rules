@@ -36,12 +36,24 @@
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : ["1password.ca", "1password.com", "1password.eu", "1passwordusercontent.com", "agilebits.com"]
-  },{
+  },
+
+  {
+    "notes": "Akamai",
+    "action" : "allow",
+    "ports" : "443",
+    "protocol" : "tcp",
+    "remote-domains" : ["akamaized.net"]
+  },
+
+  {
     "notes": "Apple (other)",
     "action": "allow",
     "process": "any",
-    "remote-domains": ["edgesuite.net","icloud.com", "mac.com"]
-  },{
+    "remote-domains": ["apple.news","edgesuite.net","icloud.com", "mac.com"]
+  },
+
+  {
     "notes": "BackBlaze Backup service",
     "action": "allow",
     "process": "any",
