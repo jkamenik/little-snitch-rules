@@ -164,7 +164,7 @@
     "action" : "allow",
     "owner" : "me",
     "process" : "\/Users\/jkamenik\/Library\/Application Support\/LogMeInInc\/GoToMeeting\/G2MUpdate",
-    "remote-domains" : ["getgocdn.com"]
+    "remote-domains" : ["getgo.com","getgocdn.com"]
   },
 
   {
