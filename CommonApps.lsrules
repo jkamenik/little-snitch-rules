@@ -110,6 +110,14 @@
   },
 
   {
+    "notes": "Fleetsmith",
+    "action" : "allow",
+    "ports" : "443",
+    "process" : "\/Applications\/Fleetsmith.app\/Contents\/MacOS\/Fleetsmith",
+    "protocol" : "tcp",
+    "remote-domains" : ["fleetsmith.com"]
+  },
+  {
     "notes": "Fleetsmith Agent",
     "action" : "allow",
     "owner" : "system",
