@@ -3,6 +3,15 @@
   "name" : "John's Common App Rules",
   "rules" : [
   {
+    "notes": "Adobe",
+    "action" : "allow",
+    "ports" : "443",
+    "protocol" : "tcp",
+    "process" : "\/Library\/Application Support\/Adobe\/AdobeGCClient\/AGSService",
+    "remote-domains" : ["adobe.com"]
+  },
+
+  {
     "notes": "Alfred",
     "action" : "allow",
     "owner" : "me",
@@ -67,6 +76,16 @@
     "protocol" : "tcp",
     "remote-domains" : ["docker.com"]
   },
+  {
+    "notes": "Docker VPN Kit",
+    "action" : "allow",
+    "ports" : "443",
+    "protocol" : "tcp",
+    "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/com.docker.supervisor",
+    "via" : "\/Applications\/Docker.app\/Contents\/Resources\/bin\/com.docker.vpnkit",
+    "remote-domains" : ["alpinelinux.org", "docker.io", "quay.io"]
+  },
+
 
   {
     "notes": "Dropbox IPs",
@@ -81,6 +100,13 @@
     "owner" : "me",
     "process" : "\/Applications\/Dropbox.app\/Contents\/MacOS\/Dropbox",
     "remote-domains" : ["dropbox-dns.com", "dropbox.com", "dropboxapi.com", "dropboxstatic.com", "getdropbox.com"]
+  },
+  {
+    "notes": "Dropbox Updater",
+    "action" : "allow",
+    "owner" : "me",
+    "process" : "\/Users\/jkamenik\/Library\/Dropbox\/DropboxMacUpdate.app\/Contents\/MacOS\/DropboxMacUpdate",
+    "remote-domains" : ["dropbox.com","dropboxstatic.com"]
   },
 
   {
