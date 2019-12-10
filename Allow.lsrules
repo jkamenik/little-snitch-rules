@@ -4,13 +4,13 @@
   "rules" : [{
     "notes": "Comcast DNS",
     "action": "allow",
-    "port": "53",
+    "ports": "53",
     "protocol": "udp",
     "remote-addresses": ["75.75.75.75", "75.75.76.76", "2001:558:feed::2"]
   },{
     "notes": "Google DNS",
     "action": "allow",
-    "port": "53",
+    "ports": "53",
     "protocol": "udp",
     "remote-addresses": ["8.8.4.4", "8.8.8.8"]
   },
