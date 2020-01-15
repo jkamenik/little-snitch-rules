@@ -266,6 +266,26 @@
     "protocol" : "tcp",
     "remote-domains" : ["paloaltonetworks.com"]
   },
+  
+  {
+    "notes": "Ubersicht Curl",
+    "action" : "allow",
+    "owner" : "me",
+    "ports" : "443",
+    "process" : "\/Applications\/Übersicht.app\/Contents\/MacOS\/Übersicht",
+    "protocol" : "tcp",
+    "remote-domains" : ["xkcd.com"],
+    "via" : "\/usr\/bin\/curl"
+  },
+  {
+    "notes": "Ubersicht",
+    "action" : "allow",
+    "owner" : "me",
+    "ports" : "443",
+    "process" : "\/Applications\/Übersicht.app\/Contents\/MacOS\/Übersicht",
+    "protocol" : "tcp",
+    "remote-domains" : "xkcd.com"
+  },
 
   {
     "notes": "VBoxHeadless HTTP",
