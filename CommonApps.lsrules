@@ -230,6 +230,14 @@
     "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
     "remote-domains" : ["atl-paas.net","atlassian.net","gravatar.com","s3-us-west-2.amazonaws.com","slack-core.com","slack-edge.com","slack-imgs.com","slack.com","slackb.com","twimg.com","wp.com"]
   },
+  {
+    "notes": "Slack Screenshare",
+    "action" : "allow",
+    "owner" : "me",
+    "ports": "22466",
+    "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+    "remote-domains" : ["slack-core.com"]
+  },
 
   {
     "notes": "Spotlight",
