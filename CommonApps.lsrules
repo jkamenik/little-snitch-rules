@@ -238,6 +238,15 @@
     "protocol": "tcp",
     "remote-domains" : ["obdev.at"]
   },
+  
+  {
+    "notes": "Pandora",
+    "action" : "allow",
+    "ports" : "443",
+    "process" : "\/Applications\/Pandora.app\/Contents\/MacOS\/Pandora",
+    "protocol" : "tcp",
+    "remote-domains" : ["pandora.com","p-cdn.us","pinimg.com"]
+  },
 
   {
     "notes": "Slack",
