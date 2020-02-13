@@ -3,6 +3,23 @@
   "name" : "John's Common App Rules",
   "rules" : [
   {
+    "notes": "1Password",
+    "action" : "allow",
+    "ports" : "443",
+    "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
+    "protocol" : "tcp",
+    "remote-domains" : ["appcenter.ms"]
+  },
+  {
+    "notes": "1Password Helper",
+    "action" : "allow",
+    "ports" : "443",
+    "process" : "\/Applications\/1Password 7.app\/Contents\/Library\/LoginItems\/1Password Extension Helper.app\/Contents\/MacOS\/1Password Extension Helper",
+    "protocol" : "tcp",
+    "remote-domains" : ["appcenter.ms"]
+  },
+    
+  {
     "notes": "Adobe",
     "action" : "allow",
     "ports" : "443",
