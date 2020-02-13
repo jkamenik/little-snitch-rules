@@ -247,6 +247,14 @@
     "protocol" : "tcp",
     "remote-domains" : ["pandora.com","p-cdn.us","pinimg.com"]
   },
+  {
+    "notes": "Pandora Deny",
+    "action" : "deny",
+    "ports" : "443",
+    "process" : "\/Applications\/Pandora.app\/Contents\/MacOS\/Pandora",
+    "protocol" : "tcp",
+    "remote-domains" : ["pinterest.com"]
+  },
 
   {
     "notes": "Slack",
