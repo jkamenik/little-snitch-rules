@@ -16,5 +16,15 @@
     "action": "deny",
     "process": "any",
     "remote-domains": ["crashlytics.com","sentry.io"]
+  },{
+    "notes": "Ad services (not caught by Peter Lowe's list)",
+    "action": "deny",
+    "process": "any",
+    "remote-domains": ["adexcel.com"]
+  },{
+    "notes": "Shady / Generally Unknown",
+    "action": "deny",
+    "process": "any",
+    "remote-domains": ["pndsn.com"]
   }]
 }

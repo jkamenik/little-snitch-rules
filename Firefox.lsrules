@@ -43,7 +43,7 @@
       "action": "allow",
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["zephyr4jiracloud.com"]
+      "remote-domains": ["elements-apps.com","gliffy.net","pristinebytes.com","zephyr4jiracloud.com"]
     },
 
     {
