@@ -10,6 +10,7 @@ Copy one of the following URLs:
 2.  Global Deny Rules: <https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/Deny.lsrules>
 3.  Common App Rules: <https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/CommonApps.lsrules>
 4.  Firefox Rules (default browser): <https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/Firefox.lsrules>
+5.  iTerm rules: <https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/iTerm.lsrules>
 
 Once the URL is copied then it can be imported into Little Snitch:
 1.  Open Little Snitch Rules preference pane
