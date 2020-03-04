@@ -1,0 +1,54 @@
+{
+  "description" : "John's iTerm Rules. Since iTerm uses subprocess for almost all work this file separately details common processes called via iTerm and gives them specific access to hosts or ports.",
+  "name" : "John's iTerm Rules",
+  "rules" : [
+    {
+      "notes": "fly",
+      "action" : "allow",
+      "ports" : "30080",
+      "process" : "\/Applications\/iTerm.app\/Contents\/MacOS\/iTerm2",
+      "via" : "\/Users\/jkamenik\/bin\/fly",
+      "protocol" : "tcp",
+      "remote": "any"
+    },
+    
+    {
+      "notes": "helm 8443",
+      "action" : "allow",
+      "ports" : "8443",
+      "process" : "\/Applications\/iTerm.app\/Contents\/MacOS\/iTerm2",
+      "via" : "\/Users\/jkamenik\/bin\/helm",
+      "protocol" : "tcp",
+      "remote": "any"
+    },
+    
+    {
+      "notes": "kubectl 8443",
+      "action" : "allow",
+      "ports" : "8443",
+      "process" : "\/Applications\/iTerm.app\/Contents\/MacOS\/iTerm2",
+      "via" : "\/Users\/jkamenik\/bin\/kubectl",
+      "protocol" : "tcp",
+      "remote": "any"
+    },
+    
+    {
+      "notes": "minikube SSH",
+      "action" : "allow",
+      "ports" : "22",
+      "process" : "\/Applications\/iTerm.app\/Contents\/MacOS\/iTerm2",
+      "via" : "\/usr\/local\/Cellar\/minikube\/1.5.1\/bin\/minikube",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "notes": "minikube 8443",
+      "action" : "allow",
+      "ports" : "8443",
+      "process" : "\/Applications\/iTerm.app\/Contents\/MacOS\/iTerm2",
+      "via" : "\/usr\/local\/Cellar\/minikube\/1.5.1\/bin\/minikube",
+      "protocol" : "tcp",
+      "remote" : "any"
+    }
+  ]
+}
