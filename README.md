@@ -6,11 +6,10 @@ Personal Rules for Little Snitch.
 
 Copy one of the following URLs:
 
-1.  Example Rules: <https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/example.lsrules>
-2.  Global Allow Rules: <https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/Allow.lsrules>
-3.  Global Deny Rules: <https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/Deny.lsrules>
-4.  Common App Rules: <https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/CommonApps.lsrules>
-5.  Firefox Rules (default browser): <https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/Firefox.lsrules>
+1.  Global Allow Rules: <https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/Allow.lsrules>
+2.  Global Deny Rules: <https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/Deny.lsrules>
+3.  Common App Rules: <https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/CommonApps.lsrules>
+4.  Firefox Rules (default browser): <https://raw.githubusercontent.com/jkamenik/little-snitch-rules/master/Firefox.lsrules>
 
 Once the URL is copied then it can be imported into Little Snitch:
 1.  Open Little Snitch Rules preference pane
