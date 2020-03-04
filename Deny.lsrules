@@ -20,7 +20,7 @@
     "notes": "Ad services (not caught by Peter Lowe's list)",
     "action": "deny",
     "process": "any",
-    "remote-domains": ["adexcel.com"]
+    "remote-domains": ["adxcel.com"]
   },{
     "notes": "Shady / Generally Unknown",
     "action": "deny",
