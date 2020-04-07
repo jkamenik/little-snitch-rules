@@ -255,6 +255,23 @@
     "protocol" : "tcp",
     "remote-domains" : ["pinterest.com"]
   },
+  
+  {
+    "notes": "Podcast (http)",
+    "action" : "allow",
+    "ports" : "80",
+    "process" : "\/usr\/libexec\/nsurlsessiond",
+    "protocol" : "tcp",
+    "remote-domains" : ["acast.com","bbc.co.uk"]
+  },
+  {
+    "notes": "Podcast (https)",
+    "action" : "allow",
+    "ports" : "80",
+    "process" : "\/usr\/libexec\/nsurlsessiond",
+    "protocol" : "tcp",
+    "remote-domains" : ["npr.com","podtrac.com","wnyc.org"]
+  },
 
   {
     "notes": "Slack",
