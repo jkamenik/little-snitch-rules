@@ -267,10 +267,10 @@
   {
     "notes": "Podcast (https)",
     "action" : "allow",
-    "ports" : "80",
+    "ports" : "443",
     "process" : "\/usr\/libexec\/nsurlsessiond",
     "protocol" : "tcp",
-    "remote-domains" : ["npr.com","podtrac.com","wnyc.org"]
+    "remote-domains" : ["blubrry.com","chtbl.com","npr.com","omny.com","podtrac.com","wnyc.org"]
   },
 
   {
