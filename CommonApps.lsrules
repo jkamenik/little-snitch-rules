@@ -262,7 +262,7 @@
     "ports" : "80",
     "process" : "\/usr\/libexec\/nsurlsessiond",
     "protocol" : "tcp",
-    "remote-domains" : ["acast.com","bbc.co.uk"]
+    "remote-domains" : ["99percentinvisible.org","acast.com","bbc.co.uk","everythingisalive.com","feedburner.com","libsyn.com","soundcloud.com","thisamericanlife.org","trumpconlaw.com","wnyc.org"]
   },
   {
     "notes": "Podcast (https)",
@@ -270,7 +270,7 @@
     "ports" : "443",
     "process" : "\/usr\/libexec\/nsurlsessiond",
     "protocol" : "tcp",
-    "remote-domains" : ["blubrry.com","chtbl.com","npr.com","omny.com","podtrac.com","wnyc.org"]
+    "remote-domains" : ["arresteddevops.com","bbci.co.uk","blubrry.com","chtbl.com","npr.com","npr.org","omny.com","omnycontent.com","podtrac.com","sciencefriday.com","sndcdn.com","wnyc.org"]
   },
 
   {
