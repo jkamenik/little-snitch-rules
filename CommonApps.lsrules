@@ -65,7 +65,7 @@
     "action" : "allow",
     "owner" : "me",
     "process" : "\/Applications\/Amazon Chime.app\/Contents\/MacOS\/Amazon Chime",
-    "remote-domains" : ["chime.aws","s3.amazonaws.com","us-east-1.amazonaws.com"]
+    "remote-domains" : ["chime.aws","in.appcenter.ms","s3.amazonaws.com","us-east-1.amazonaws.com"]
   },
 
   {
