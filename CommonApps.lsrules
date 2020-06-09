@@ -270,7 +270,7 @@
     "ports" : "443",
     "process" : "\/usr\/libexec\/nsurlsessiond",
     "protocol" : "tcp",
-    "remote-domains" : ["arresteddevops.com","bbci.co.uk","blubrry.com","chtbl.com","npr.com","npr.org","omny.com","omnycontent.com","podtrac.com","sciencefriday.com","sndcdn.com","wnyc.org"]
+    "remote-domains" : ["99percentinvisible.org","arresteddevops.com","b5dev.com","bbci.co.uk","blubrry.com","chtbl.com","libsyn.com","npr.com","npr.org","omny.com","omnycontent.com","podtrac.com","sciencefriday.com","sndcdn.com","thisamericanlife.org","wnyc.org"]
   },
 
   {
