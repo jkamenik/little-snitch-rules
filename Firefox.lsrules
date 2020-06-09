@@ -14,7 +14,7 @@
       "action": "allow",
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["atom.io","comodoca.com","digicert.com","duckduckgo.com","entrust.net","easylist.to","firefox.com","firefoxusercontent.com","fontawesome.com","fonts.net","geotrust.com","https-rulesets.org","letsencrypt.org","mozilla.com","mozilla.net","mozilla.org","mozillazine.org","pki.goog","sectigo.com","thawte.com","trustarc.com","truste.com","whois.net"]
+      "remote-domains": ["atom.io","cookielaw.org","comodoca.com","comodoca4.com","digicert.com","duckduckgo.com","entrust.net","easylist.to","firefox.com","firefoxusercontent.com","fontawesome.com","fonts.net","geotrust.com","https-rulesets.org","letsencrypt.org","mozilla.com","mozilla.net","mozilla.org","mozillazine.org","pki.goog","sectigo.com","thawte.com","trustarc.com","truste.com","whois.net"]
     },
     {
       "notes": "2. HTTP Defaults",
@@ -28,7 +28,7 @@
       "action": "allow",
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["akamaized.net","aspnetcdn.com","bootstrapcdn.com","cloudflare.com","cloudfront.net","ehowcdn.com","gitcdn.xyz","gstatic.com","jquery.com","polyfill.io","s3.amazonaws.com","sstatic.net","swiftypecdn.com","typekit.net"]
+      "remote-domains": ["akamaized.net","aspnetcdn.com","bootstrapcdn.com","cloudflare.com","cloudfront.net","ehowcdn.com","gitcdn.xyz","gstatic.com","jquery.com","polyfill.io","s3.amazonaws.com","s3-us-west-2.amazonaws.com","sstatic.net","statically.io","staticworld.net","swiftypecdn.com","typekit.net"]
     },
 
     {
@@ -61,13 +61,21 @@
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "remote-domains": ["docker.com"]
     },
+    
+    {
+      "notes": "Good Sam",
+      "action": "allow",
+      "ports": "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["goodsam.com"]
+    },
 
     {
       "notes": "Google",
       "action": "allow",
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["withgoogle.com","ytimg.com","youtube.com"]
+      "remote-domains": ["googleusercontent.com","withgoogle.com","ytimg.com","youtube.com"]
     },
 
     {
@@ -101,6 +109,14 @@
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "remote-domains": ["trinet.com","trinetexpense.com","trinetcloud.com"]
     },
+    
+    {
+      "notes": "Video Game Sites",
+      "action": "allow",
+      "ports": "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["stalks.io"]
+    },
 
     {
       "notes": "Webex",
@@ -108,6 +124,14 @@
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "remote-domains": ["webex.com"]
+    },
+    
+    {
+      "notes": "Web of Trust",
+      "action": "allow",
+      "ports": "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["mywot.com","www.mywot.com"]
     },
 
     {
