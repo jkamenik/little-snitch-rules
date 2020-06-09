@@ -240,6 +240,24 @@
   },
   
   {
+    "notes": "Opaq VPN",
+    "action" : "allow",
+    "owner" : "system",
+    "ports" : "1194",
+    "process" : "\/Library\/Application Support\/OPAQ Networks\/Plugins\/com.opaqnetworks.vpn.bundle\/Contents\/Resources\/opaqvpn",
+    "protocol" : "udp",
+    "remote-addresses" : ["74.123.206.4"]
+  },
+  
+  {
+    "notes": "PaloAltoNetworks",
+    "action" : "allow",
+    "owner" : "system",
+    "process" : "\/Library\/Application Support\/PaloAltoNetworks\/Traps\/bin\/pmd",
+    "remote-domains" : ["paloaltonetworks.com"]
+  },
+  
+  {
     "notes": "Pandora",
     "action" : "allow",
     "ports" : "443",
