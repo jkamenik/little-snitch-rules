@@ -10,7 +10,7 @@
     "notes": "Trackers",
     "action": "deny",
     "process": "any",
-    "remote-domains": ["luckyorange.com","segment.io","ptengine.com","tritondigital.com"]
+    "remote-domains": ["luckyorange.com","segment.io","subscribers.com","ptengine.com","tritondigital.com"]
   },{
     "notes": "Useless Crash and Metrics reporting",
     "action": "deny",
@@ -20,7 +20,7 @@
     "notes": "Ad services (not caught by Peter Lowe's list)",
     "action": "deny",
     "process": "any",
-    "remote-domains": ["adxcel.com"]
+    "remote-domains": ["adxcel.com","consensu.org","onetrust.com"]
   },{
     "notes": "Shady / Generally Unknown",
     "action": "deny",
