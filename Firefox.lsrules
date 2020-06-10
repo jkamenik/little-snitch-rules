@@ -53,6 +53,14 @@
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "remote-domains": ["codacy.com"]
     },
+    
+    {
+      "notes": "Discourse",
+      "action": "allow",
+      "ports": "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["discourse.com","discourse-cdn.com"]
+    },
 
     {
       "notes": "Docker",
@@ -75,7 +83,7 @@
       "action": "allow",
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["googleusercontent.com","withgoogle.com","ytimg.com","youtube.com"]
+      "remote-domains": ["ggpht.com","googleusercontent.com","googlevideo.com","withgoogle.com","ytimg.com","youtu.be","youtube.com"]
     },
 
     {
@@ -84,6 +92,14 @@
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "remote-domains": ["terraform.io"]
+    },
+    
+    {
+      "notes": "Patreon",
+      "action": "allow",
+      "ports": "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["patreon.com","patreonusercontent.com"]
     },
 
     {
