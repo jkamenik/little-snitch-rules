@@ -10,7 +10,7 @@
     "notes": "Trackers",
     "action": "deny",
     "process": "any",
-    "remote-domains": ["luckyorange.com","segment.io","subscribers.com","ptengine.com","tritondigital.com"]
+    "remote-domains": ["luckyorange.com","googletagmanager.com","segment.io","subscribers.com","ptengine.com","tritondigital.com"]
   },{
     "notes": "Useless Crash and Metrics reporting",
     "action": "deny",
