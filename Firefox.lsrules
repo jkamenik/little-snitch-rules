@@ -164,6 +164,14 @@
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "remote-domains": ["zendesk.com"]
+    },
+    
+    {
+      "notes": "Zoom",
+      "action": "allow",
+      "ports": "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["zoom.us","zopim.com"]
     }
   ]
 }
