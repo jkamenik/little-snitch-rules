@@ -125,6 +125,16 @@
     "process" : "\/Users\/jkamenik\/Library\/Dropbox\/DropboxMacUpdate.app\/Contents\/MacOS\/DropboxMacUpdate",
     "remote-domains" : ["dropbox.com","dropboxstatic.com"]
   },
+  
+  {
+    "notes": "Excel",
+    "action" : "allow",
+    "owner" : "me",
+    "ports" : "443",
+    "process" : "\/Applications\/Microsoft Excel.app\/Contents\/MacOS\/Microsoft Excel",
+    "protocol" : "tcp",
+    "remote-domains" : ["svc.ms"]
+  },
 
   {
     "notes": "Fleetsmith",
@@ -183,6 +193,16 @@
     "process" : "\/Users\/jkamenik\/Library\/Application Support\/LogMeInInc\/GoToMeeting\/G2MUpdate",
     "remote-domains" : ["getgo.com","getgocdn.com"]
   },
+  
+  {
+    "notes": "ID Service",
+    "action" : "allow",
+    "owner" : "me",
+    "ports" : "60814",
+    "process" : "\/System\/Library\/PrivateFrameworks\/IDS.framework\/identityservicesd.app\/Contents\/MacOS\/identityservicesd",
+    "protocol" : "udp",
+    "remote-addresses" : ["10.254.254.254"]
+  },
 
   {
     "notes": "iStat Menu",
@@ -217,6 +237,26 @@
     "protocol" : "tcp",
     "process" : "\/Library\/Little Snitch\/Little Snitch Software Update.app\/Contents\/MacOS\/Little Snitch Software Update",
     "remote-domains" : ["obdev.at"]
+  },
+  
+  {
+    "notes": "Mail HTTP",
+    "action" : "allow",
+    "owner" : "me",
+    "ports" : "80",
+    "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+    "protocol" : "tcp",
+    "remote-domains" : ["harborfreight.com","nintendo.net"]
+  },
+  
+  {
+    "notes": "Mail HTTPs",
+    "action" : "allow",
+    "owner" : "me",
+    "ports" : "443",
+    "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+    "protocol" : "tcp",
+    "remote-domains" : ["weightwatchers.com","ww.com"]
   },
 
   {
