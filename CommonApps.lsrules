@@ -290,6 +290,15 @@
   },
   
   {
+    "notes": "Opaq VPN ICMP",
+    "action" : "allow",
+    "owner" : "me",
+    "process" : "\/Library\/Application Support\/OPAQ Networks\/OPAQ Endpoint Agent.app\/Contents\/MacOS\/OPAQ Endpoint Agent",
+    "protocol" : "icmp",
+    "remote-addresses" : ["8.8.8.8"]
+  },
+  
+  {
     "notes": "PaloAltoNetworks",
     "action" : "allow",
     "owner" : "system",
