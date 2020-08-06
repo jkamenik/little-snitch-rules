@@ -14,7 +14,7 @@
       "action": "allow",
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
-      "remote-domains": ["atom.io","cookielaw.org","comodoca.com","comodoca4.com","digicert.com","duckduckgo.com","entrust.net","easylist.to","firefox.com","firefoxusercontent.com","fontawesome.com","fonts.net","geotrust.com","https-rulesets.org","letsencrypt.org","mozilla.com","mozilla.net","mozilla.org","mozillazine.org","pki.goog","sectigo.com","thawte.com","trustarc.com","truste.com","whois.net"]
+      "remote-domains": ["atom.io","cookielaw.org","comodoca.com","comodoca4.com","digicert.com","duckduckgo.com","entrust.net","easylist.to","firefox.com","firefoxusercontent.com","fontawesome.com","fonts.net","geotrust.com","https-rulesets.org","letsencrypt.org","mozilla.com","mozilla.net","mozilla.org","mozillazine.org","pki.goog","publicsuffix.org","sectigo.com","thawte.com","trustarc.com","truste.com","whois.net"]
     },
     {
       "notes": "2. HTTP Defaults",
