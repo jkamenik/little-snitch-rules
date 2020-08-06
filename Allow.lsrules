@@ -91,6 +91,11 @@
     "process": "any",
     "remote-domains": ["duo.com","duosecurity.com"]
   },{
+    "notes": "Fortinet",
+    "action": "allow",
+    "process": "any",
+    "remote-domains": ["fortidemo.com","fortigate.com","fortinet.com"]
+  },{
     "notes": "Github",
     "action": "allow",
     "process": "any",
