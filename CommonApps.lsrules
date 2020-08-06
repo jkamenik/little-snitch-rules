@@ -329,7 +329,7 @@
     "ports" : "80",
     "process" : "\/usr\/libexec\/nsurlsessiond",
     "protocol" : "tcp",
-    "remote-domains" : ["99percentinvisible.org","acast.com","bbc.co.uk","everythingisalive.com","feedburner.com","libsyn.com","soundcloud.com","thisamericanlife.org","trumpconlaw.com","wnyc.org"]
+    "remote-domains" : ["99percentinvisible.org","acast.com","akamaized.net","bbc.co.uk","everythingisalive.com","feedburner.com","libsyn.com","soundcloud.com","thisamericanlife.org","trumpconlaw.com","wnyc.org"]
   },
   {
     "notes": "Podcast (https)",
