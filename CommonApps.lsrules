@@ -346,7 +346,7 @@
     "owner" : "me",
     "ports": "443",
     "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
-    "remote-domains" : ["atl-paas.net","atlassian.net","gravatar.com","s3-us-west-2.amazonaws.com","slack-core.com","slack-edge.com","slack-imgs.com","slack.com","slackb.com","twimg.com","wp.com"]
+    "remote-domains" : ["atl-paas.net","atlassian.net","chime.aws","gravatar.com","s3-us-west-2.amazonaws.com","slack-core.com","slack-edge.com","slack-imgs.com","slack.com","slackb.com","twimg.com","wp.com"]
   },
   {
     "notes": "Slack Screenshare",
@@ -354,7 +354,7 @@
     "owner" : "me",
     "ports": "22466",
     "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
-    "remote-domains" : ["slack-core.com"]
+    "remote-domains" : ["chime.aws","slack-core.com"]
   },
 
   {
