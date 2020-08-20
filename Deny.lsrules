@@ -20,11 +20,16 @@
     "notes": "Ad services (not caught by Peter Lowe's list)",
     "action": "deny",
     "process": "any",
-    "remote-domains": ["adxcel.com","consensu.org","onetrust.com"]
+    "remote-domains": ["addtoany.com","adxcel.com","consensu.org","onetrust.com"]
   },{
     "notes": "Shady / Generally Unknown",
     "action": "deny",
     "process": "any",
-    "remote-domains": ["pndsn.com"]
+    "remote-domains": ["pndsn.com","rec-engine.com","sail-personalize.com","sail-track.com"]
+  },{
+    "notes": "Marketing Crap",
+    "action": "deny",
+    "process": "any",
+    "remote-domains": ["bazaarvoice.com","braze.com"]
   }]
 }

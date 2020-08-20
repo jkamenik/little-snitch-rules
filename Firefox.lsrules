@@ -45,6 +45,14 @@
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "remote-domains": ["elements-apps.com","gliffy.net","pristinebytes.com","zephyr4jiracloud.com"]
     },
+    
+    {
+      "notes": "Brightcove (online video)",
+      "action": "allow",
+      "ports": "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["brightcove.com"]
+    },
 
     {
       "notes": "Codacy",
@@ -92,6 +100,14 @@
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "remote-domains": ["terraform.io"]
+    },
+    
+    {
+      "notes": "Hearst Media Group",
+      "action": "allow",
+      "ports": "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["hearst.io","hearstapps.com","htvapps.com","htvtools.us","wgal.com"]
     },
     
     {

@@ -104,7 +104,7 @@
     "notes": "Google",
     "action": "allow",
     "process": "any",
-    "remote-domains": ["googleapis.com", "google.com"]
+    "remote-domains": ["googleapis.com", "google.com","gvt1.com"]
   },{
     "notes": "Hockeyapp App Updater",
     "action": "allow",
