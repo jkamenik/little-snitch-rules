@@ -93,6 +93,14 @@
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "remote-domains": ["ggpht.com","googleusercontent.com","googlevideo.com","withgoogle.com","ytimg.com","youtu.be","youtube.com"]
     },
+    
+    {
+      "notes": "GlobalSign SSL verification",
+      "action": "allow",
+      "ports": "80",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["globalsign.com"]
+    },
 
     {
       "notes": "Hashicorp",
@@ -164,6 +172,14 @@
       "ports": "443",
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "remote-domains": ["mywot.com","www.mywot.com"]
+    },
+    
+    {
+      "notes": "WW",
+      "action": "allow",
+      "ports": "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains": ["weightwatchers.com","ww.com"]
     },
 
     {
