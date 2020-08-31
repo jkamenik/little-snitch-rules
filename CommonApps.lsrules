@@ -127,6 +127,16 @@
   },
   
   {
+    "notes": "Evernote",
+    "action" : "allow",
+    "owner" : "me",
+    "ports" : "443",
+    "process" : "\/Applications\/Evernote.app\/Contents\/MacOS\/Evernote",
+    "protocol" : "tcp",
+    "remote-domains" : ["appcenter.ms","evernote.com"]
+  },
+  
+  {
     "notes": "Excel",
     "action" : "allow",
     "owner" : "me",
