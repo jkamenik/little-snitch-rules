@@ -20,15 +20,6 @@
   },
     
   {
-    "notes": "Adobe",
-    "action" : "allow",
-    "ports" : "443",
-    "protocol" : "tcp",
-    "process" : "\/Library\/Application Support\/Adobe\/AdobeGCClient\/AGSService",
-    "remote-domains" : ["adobe.com"]
-  },
-
-  {
     "notes": "Alfred",
     "action" : "allow",
     "owner" : "me",
@@ -74,14 +65,6 @@
     "owner" : "me",
     "process" : "\/Applications\/Atom.app\/Contents\/MacOS\/Atom",
     "remote-domains" : ["s3.amazonaws.com","appveyor.com","atom.io","bithound.io","bugsnag.com","circleci.com","codacy.com","david-dm.org","npmjs.org","opencollective.com","shields.io","travis-ci.org","quay.io"]
-  },
-
-  {
-    "notes": "Backblaze",
-    "action" : "allow",
-    "owner" : "me",
-    "process" : "\/Library\/Backblaze.bzpkg\/bztransmit",
-    "remote-domains" : ["backblazeb2.com"]
   },
 
   {
@@ -144,42 +127,6 @@
     "process" : "\/Applications\/Microsoft Excel.app\/Contents\/MacOS\/Microsoft Excel",
     "protocol" : "tcp",
     "remote-domains" : ["svc.ms"]
-  },
-
-  {
-    "notes": "Fleetsmith",
-    "action" : "allow",
-    "ports" : "443",
-    "process" : "\/Applications\/Fleetsmith.app\/Contents\/MacOS\/Fleetsmith",
-    "protocol" : "tcp",
-    "remote-domains" : ["fleetsmith.com"]
-  },
-  {
-    "notes": "Fleetsmith Agent",
-    "action" : "allow",
-    "owner" : "system",
-    "ports" : "443",
-    "process" : "\/opt\/fleetsmith\/bin\/fsagent",
-    "protocol" : "tcp",
-    "remote-domains" : ["fleetsmith.cloud"]
-  },
-  {
-    "notes": "Fleetsmith Client",
-    "action" : "allow",
-    "owner" : "system",
-    "ports" : "443",
-    "process" : "\/usr\/libexec\/mdmclient",
-    "protocol" : "tcp",
-    "remote-domains" : ["fleetsmith.cloud"]
-  },
-  {
-    "notes": "Fleetsmith Updater",
-    "action" : "allow",
-    "owner" : "system",
-    "ports" : "443",
-    "process" : "\/opt\/fleetsmith\/bin\/fsupdater",
-    "protocol" : "tcp",
-    "remote-domains" : ["fleetsmith.cloud"]
   },
 
   {
@@ -269,16 +216,6 @@
   },
 
   {
-    "notes": "Monosnap",
-    "action" : "allow",
-    "owner" : "me",
-    "ports" : "443",
-    "process" : "\/Applications\/Monosnap.app\/Contents\/MacOS\/Monosnap",
-    "protocol" : "tcp",
-    "remote-domains" : ["monosnap.com"]
-  },
-
-  {
     "notes": "Micro Snitch",
     "action" : "allow",
     "owner" : "me",
@@ -286,33 +223,6 @@
     "process" : "\/Applications\/Micro Snitch.app\/Contents\/MacOS\/Micro Snitch",
     "protocol": "tcp",
     "remote-domains" : ["obdev.at"]
-  },
-  
-  {
-    "notes": "Opaq VPN",
-    "action" : "allow",
-    "owner" : "system",
-    "ports" : "1194",
-    "process" : "\/Library\/Application Support\/OPAQ Networks\/Plugins\/com.opaqnetworks.vpn.bundle\/Contents\/Resources\/opaqvpn",
-    "protocol" : "udp",
-    "remote-addresses" : ["74.123.206.4"]
-  },
-  
-  {
-    "notes": "Opaq VPN ICMP",
-    "action" : "allow",
-    "owner" : "me",
-    "process" : "\/Library\/Application Support\/OPAQ Networks\/OPAQ Endpoint Agent.app\/Contents\/MacOS\/OPAQ Endpoint Agent",
-    "protocol" : "icmp",
-    "remote-addresses" : ["8.8.8.8"]
-  },
-  
-  {
-    "notes": "PaloAltoNetworks",
-    "action" : "allow",
-    "owner" : "system",
-    "process" : "\/Library\/Application Support\/PaloAltoNetworks\/Traps\/bin\/pmd",
-    "remote-domains" : ["paloaltonetworks.com"]
   },
   
   {
@@ -384,16 +294,6 @@
     "remote-domains" : ["appcenter.ms","culturedcode.com"]
   },
 
-  {
-    "notes": "Traps",
-    "action" : "allow",
-    "owner" : "system",
-    "ports" : "443",
-    "process" : "\/Library\/Application Support\/PaloAltoNetworks\/Traps\/bin\/trapsd",
-    "protocol" : "tcp",
-    "remote-domains" : ["paloaltonetworks.com"]
-  },
-  
   {
     "notes": "Ubersicht Curl",
     "action" : "allow",
